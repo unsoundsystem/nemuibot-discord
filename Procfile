@@ -1,1 +1,1 @@
-bot: ./target/release/nemuibot-discord
+web: ./target/release/nemuibot-discord
