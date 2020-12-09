@@ -36,10 +36,6 @@ async fn main() {
     if let Err(why) = client.start().await {
         println!("An error occurred while running the client: {:?}", why);
     }
-
-    let port = env::var("PORT").expect("can't get port number.");
-
-    TcpListener::bind(port);
 }
 
 #[command]

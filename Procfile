@@ -1,1 +1,1 @@
-web: ./target/release/nemuibot-discord
+worker: ./target/release/nemuibot-discord
